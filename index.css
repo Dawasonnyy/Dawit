@@ -22,6 +22,10 @@ nav {
     padding: 30px 0; 
 }
 
+.me>h2 {
+    color: pink;
+}
+
 ul li a {
     text-decoration: none;
     margin: 0 8px;
