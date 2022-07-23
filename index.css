@@ -744,6 +744,7 @@ figure>img {
     width: 100%;
 }
  .project__description {
+      max-height: 250px;
     max-width: 60%;
     text-align: center;
     width: 100%;
