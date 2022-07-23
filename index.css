@@ -524,7 +524,10 @@ ul li a{
     }
    
      /*body*/
-  
+     .container>h2 {
+        color: pink;
+        font-size:35px;
+    }
     .container {
         width: 90%;
         margin-top:20px ;
@@ -579,6 +582,7 @@ ul li a{
     .container>h2 {
     color: pink;
     font-size:15px;
+    margin-top: 20px;
 }
 .me>img {
     width: 35%;
