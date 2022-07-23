@@ -576,6 +576,10 @@ ul li a{
     margin: auto;
     
 }
+    .container>h2 {
+    color: pink;
+    font-size:15px;
+}
 .me>img {
     width: 35%;
 }
