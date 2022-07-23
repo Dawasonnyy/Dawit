@@ -24,7 +24,7 @@ nav {
 
 ul li a {
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 8px;
     color: black;
     transition: 0.5s ease-in-out;
     font-family: 'Lato',cursive;
@@ -57,7 +57,7 @@ ul {
 
 }
 .logo {
-    margin-top: -10px;
+    
     font-family: 'Alfa Slab One', cursive;
     color: yellow;
     font-size: 40px;
@@ -632,21 +632,22 @@ figure>img {
  
 }
 
-@media (max-width:768px) and (min-width:320px) {
+@media (max-width:768px) and (min-width:300px) {
     nav {
         width: 90%;
+        
     }
+    
 
     .logo {
-        font-size: 28px;
+        font-size: 20px;
+        margin-top: -5px;
     }
 
-    ul li {
-        padding: 0 10px;
-    }
+    
 
     ul li a{
-        font-size: 15px;
+        font-size: 9px;
         font-weight: bold;
     }
 
@@ -657,42 +658,66 @@ figure>img {
     margin: auto;
     
 }
+#ethiopia {
+    position: relative;
+    bottom: -4px;
+    width: 13px;
+}
+
+.logos {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+}
+a>img{
+   
+    width: 15px;
+}
 .me>img {
     width: 30%;
 }
 
 h1{
     
+    font-weight: bold;
+    font-size: 20px;
     
-    font-size: 35px;
 }
 p{
+    margin-top: -5px;
     
-    font-size: 15px;
+    font-size: 10px;
     
     
  
 }
 .container {
-    margin-top: 100px;
+    margin-top: 20px;
     width: 80%;
    
     
 }
 .language-page{
     
-    width: 85%;
+    width: 94%;
  
+}
+.language-page>h2{
+    color: rgb(3, 3, 3);
+}
+.tech {
+    color: #6030b1;
+    text-transform: capitalize;
 }
 
 
 figure>img {
     text-align: center;
-    width: 100px;
+    width: 60px;
     margin: 0 20px;
     transition: 0.5s;
     text-align: center;
-    padding: 0 5px;
+    padding: 0 ;
    
     
     
@@ -714,8 +739,16 @@ figure>img {
    
     position: absolute;
     top: -115px;
-    left: 230px;
+    left: 120px;
     
+}
+.footer>ul li a{
+    font-size: 10px;    
+
+}
+
+.row>.section__title {
+    font-size: 30px;
 }
 }
 
