@@ -743,10 +743,10 @@ figure>img {
 .project__wrapper {
     width: 100%;
 }
-   .project__description {
-    
+ .project__description {
+    max-width: 60%;
     text-align: center;
-    width: 75%;
+    width: 100%;
 }
 .footer {
     width: 100%;
